@@ -171,6 +171,7 @@ notebooks/data.csv
 
 mlruns/
 mlartifacts/
+mlflow-env/
 data/
 
 #Kaggle folder
