@@ -167,5 +167,8 @@ notebooks/data.csv
 #Imagenes generadas
 *.png
 
-#Ignore data
-data
+#Ignore sensitive data
+
+mlruns/
+mlartifacts/
+data/
