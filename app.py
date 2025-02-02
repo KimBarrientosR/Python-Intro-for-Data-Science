@@ -1,9 +1,9 @@
 from flask import Flask, request, jsonify
 import pandas as pd
-import cloudpickle
+import pickle
 
-with open("3960_sales_predictions.pkl", "rb") as f:
-    model = cloudpickle.load(f)
+with open("loan_predictions_kimberly_b.pkl", "rb") as f:
+    model = pickle.load(f)
 
 app = Flask(__name__)
 
