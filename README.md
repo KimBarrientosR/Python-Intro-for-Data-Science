@@ -7,6 +7,14 @@ This repository holds all the files seen during the CodeSpace Bootcamp for Data 
 
  - Python >= 3.9.x
  - Run Script in Docker Model section on MLFLOW IV - Kaggle II file to generate loan_predictions file to Dockerfile.
+ **Note: File pkl is ignore in gitignore, but you can create in MLFLOW file in the last steps.**
+
+    ```
+    docker build -t loan-model-api .
+    docker run -p 5002:5002 loan-model-api
+    ```
+
+    Try with endpoint: http://127.0.0.1:5002/invocations
 
 **Stack**
  - Python Language
