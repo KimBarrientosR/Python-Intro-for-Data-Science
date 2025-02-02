@@ -3,6 +3,11 @@ This repository holds all the files seen during the CodeSpace Bootcamp for Data 
 
 # MLFLOW
 
+**Setup**
+
+ - Python >= 3.9.x
+ - Run Script in Docker Model section on MLFLOW IV - Kaggle II file to generate loan_predictions file to Dockerfile.
+
 **Stack**
  - Python Language
  - MLFlow library
@@ -35,6 +40,9 @@ The motivation behind this project is to explore and implement MLFlow for managi
 | <input type="checkbox" disabled checked  /> Export model to use in dockerfile |
 | <input type="checkbox" disabled checked  /> Create API with flask library to expose endpoint to use model |
 
+# TODO
+
+| <input type="checkbox" disabled   /> Move model export file to dockerfile from notebook. |
 
 **Storytelling**
 
@@ -57,3 +65,4 @@ The predictive model has been dockerized to be able to expose it as an independe
 ![folder structure](images/xgboost.png)
 ![folder structure](images/notebook_kaggle_loan.png)
 ![folder structure](images/kaggle_submision_2.png)
+![folder structure](images/docker.png)
