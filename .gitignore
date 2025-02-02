@@ -166,3 +166,6 @@ notebooks/data.csv
 
 #Imagenes generadas
 *.png
+
+#Ignore data
+data
