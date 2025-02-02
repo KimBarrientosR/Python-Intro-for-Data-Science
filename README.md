@@ -19,6 +19,11 @@ The motivation behind this project is to explore and implement MLFlow for managi
 | ------------------------------------------------- |
 | <input type="checkbox" disabled checked  /> Run first MLFlow server   |
 | <input type="checkbox" disabled checked  /> Train first MLFlow model and autlog |
+| <input type="checkbox" disabled checked  /> Train first MLFlow model and autlog |
+| <input type="checkbox" disabled checked  /> Register to Kaggle competition |
+| <input type="checkbox" disabled checked  /> Add Kaggle folder to project and add in gitignore |
+| <input type="checkbox" disabled checked  /> Download data from Kaggle via API |
+
 
 **Storytelling**
 
