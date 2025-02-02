@@ -164,8 +164,7 @@ cython_debug/
 #Pandas lesson
 notebooks/data.csv
 
-#Imagenes generadas
-*.png
+
 
 #Ignore sensitive data
 
